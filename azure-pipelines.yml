@@ -1,1 +1,4 @@
-- script: echo "The current build number is: $(Build.BuildNumber)"
+steps:
+- script: |
+    echo "This is your message"
+  displayName: "Echo Message"
