@@ -1,1 +1,1 @@
-script: echo "hi"
+- script: echo "The current build number is: $(Build.BuildNumber)"
