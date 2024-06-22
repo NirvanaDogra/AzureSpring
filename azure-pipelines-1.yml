@@ -49,7 +49,6 @@ stages:
   jobs:
   - deployment: DeployLinuxWebApp
     displayName: Deploy Linux Web App
-    environment: $(environmentName)
     pool:
       vmImage: $(vmImageName)
     strategy:
